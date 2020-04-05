@@ -14,7 +14,7 @@ export default function Detail() {
   const { incident } = route.params;
 
   const message = `
-    olá ${incident.name}, estou entrando em contato pois gostaria de ajudar
+    olá ${incident.ong.name}, estou entrando em contato pois gostaria de ajudar
     no caso ${incident.title} com o valor de ${Intl.NumberFormat('pt-BR', {
     style: 'currency',
     currency: 'BRL',
@@ -28,14 +28,14 @@ export default function Detail() {
   function sendMail() {
     MailComposer.composeAsync({
       subject: `Herói do caso: ${incident.title}`,
-      recipients: [incident.email],
+      recipients: [incident.ong.email],
       body: message,
     });
   }
 
   function sendWhatsapp() {
     Linking.openURL(
-      `whatsapp://send?phone=+55${incident.whatsapp}&text=${message}`
+      `whatsapp://send?phone=+55${incident.ong.whatsapp}&text=${message}`
     );
   }
 
@@ -52,7 +52,7 @@ export default function Detail() {
       <View style={styles.incident}>
         <Text style={[styles.incidentProperty, { marginTop: 0 }]}>ONG:</Text>
         <Text style={styles.incidentValue}>
-          {incident.name} de {incident.city} / {incident.uf}
+          {incident.ong.name} de {incident.ong.city} / {incident.ong.uf}
         </Text>
 
         <Text style={styles.incidentProperty}>CASO:</Text>
