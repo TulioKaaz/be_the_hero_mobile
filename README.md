@@ -29,6 +29,10 @@ Este projeto foi desenvolvido com a ajuda das seguintes tecnologias.
 
 Esta aplicação web faz parte do projeto Be The Hero, uma aplicação desenvolvida durante a semana Omnistack 11.0 da [RocketSeat](https://rocketseat.com.br/). A aplicação visa ajudar Ongs a levantar fundos para custear diversos casos que elas se propõe a resolver.
 
+-[API](https://github.com/TulioCaz/be_the_hero-api) -- API do Projeto
+
+-[Web Aplication](https://github.com/TulioCaz/be-the-hero-webaplication) -- Parte web do Projeto
+
  -- **Preview**
  
 <p align="center">
