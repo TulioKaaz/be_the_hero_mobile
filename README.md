@@ -16,3 +16,47 @@
 </p>
 </br>
 
+
+## :rocket: Tecnologias
+
+Este projeto foi desenvolvido com a ajuda das seguintes tecnologias.
+
+- [ReactNative](https://reactnative.dev/)
+- [Axios](https://github.com/axios/axios)
+- [expo](https://expo.io/)
+
+## 💻 Projeto
+
+Esta aplicação web faz parte do projeto Be The Hero, uma aplicação desenvolvida durante a semana Omnistack 11.0 da [RocketSeat](https://rocketseat.com.br/). A aplicação visa ajudar Ongs a levantar fundos para custear diversos casos que elas se propõe a resolver.
+
+-[API](https://github.com/TulioCaz/be_the_hero-api) -- API do Projeto
+
+-[Web Aplication](https://github.com/TulioCaz/be-the-hero-webaplication) -- Parte web do Projeto
+
+ -- **Preview**
+ 
+<p align="center">
+  <img width="250px" src="https://github.com/TulioCaz/be_the_hero_mobile/blob/master/assets/screener_1586139148881.png" alt="screenshot">
+  <img width="250px" src="https://github.com/TulioCaz/be_the_hero_mobile/blob/master/assets/screener_1586139163377.png" alt="screenshot">
+  <img width="250px" src="https://github.com/TulioCaz/be_the_hero_mobile/blob/master/assets/screener_1586139180318.png" alt="screenshot">
+</p>
+</br>
+ 
+ 
+ 
+ ## 🤔 Como contribuir
+
+- Faça um fork desse repositório e do repositorio da [API](https://github.com/TulioCaz/be_the_hero-api);
+- Cria uma branch com a sua feature: `git checkout -b minha-feature`;
+- Faça commit das suas alterações: `git commit -m 'feat: Minha nova feature'`;
+- Faça push para a sua branch: `git push origin minha-feature`.
+
+Depois que o merge da sua pull request for feito, você pode deletar a sua branch.
+
+## :memo: Licença
+
+Esse projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
+
+---
+
+Desenvolvido por [Tulio Camargo](https://github.com/TulioCaz).
